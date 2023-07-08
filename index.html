@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Fintech</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+
+  
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+
+
+    
+</head>
+<body class="text-center"> 
+    <form>
+        <img class="logo" src="fintech-logo.png">
+        <h1 class="entrar">Entrar</h1>
+        
+        <div class="form-group">
+          <label for="exampleInputCpf">CPF</label>
+          <input type="cpf" class="form-control" id="exampleInputCpf" aria-describedby="emailHelp" onkeyup="validateCpf()">
+          <small id="emailHelp" class="form-text text-muted">Nunca vamos compartilhar seus dados com ninguém.</small>
+          <span id="cpf-erro"></span>
+        </div>        
+        
+        <div class="form-group">
+          <label for="exampleInputPassword1">Senha</label>
+          <input type="password"  class="form-control" id="exampleInputPassword1" placeholder="Senha" onkeyup="validatePassword()">
+          <span id="password-erro"></span>
+        </div>
+        
+        <div class="form-group form-check">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <label class="form-check-label" for="exampleCheck1">Lembrar de mim</label>
+        </div>
+       
+        <button type="button" class="btn btn-primary btn-lg btn-block">Entrar</button>      
+        <footer class="redefinir">
+          <a href="#" class="alert-link"> Esqueci minha senha</a>
+        </footer>
+    </form>    
+    <script src='main.js'></script>
+</body>
+</html>
