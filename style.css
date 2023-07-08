@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: whitesmoke;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.logo{
+    width: 220px;
+    height: 220px;
+}
+
+.entrar{
+    text-align: center;
+    margin-top:auto;
+    margin: 05px 0px 30px;
+}
+
+.form-group{
+    text-align: left;
+}
+
+.redefinir{
+    margin-top: 30px;
+}
+
